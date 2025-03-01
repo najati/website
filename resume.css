@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+font-family: Garamond,Georgia,'Times New Roman',serif;
+font-size: 10pt;
+font-weight: normal;
+width: 8in;
+margin: auto;
+margin-top: .5in;
+margin-bottom: .5in;
+line-height: 1.4;
+}
+
+* { margin:0 ; padding:0; }
+
+.section {
+clear: both;
+margin: 0 0 15px 0;
+}
+
+.section-content {
+margin: 0 20px 0 .75in;
+}
+
+h1,h2,h3,h4 {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin: 0 10px 5px;
+  font-size: 12pt;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.section-content li {
+  list-style: none;
+  text-indent: -.85em;
+  margin-bottom: 3px;
+}
+
+.section-content li:before {
+  content: "\00BB \0020";
+  position: relative;
+  top: -2px;
+  left: -1px;
+}
+
+.contact-info {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.contact-info .section-content {
+  margin-left: 0;
+}
+
+.contact-info .name {
+  font-size: 13pt;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.contact-info ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+
+.contact-info ul li {
+  list-style: none;
+}
+
+.contact-info ul li:before {
+  content:'\2022';
+
+  position: relative;
+  left: -6px;
+  top: 1px;
+
+  font-size: 120%;
+  line-height: 0;
+}
+
+.contact-info ul .email-address:before {
+  content:none;
+}
+
+.contact-info ul .cell-number {
+  margin-left: 1.5em;
+}
+
+.contact-info ul .street-address {
+  margin-left: 1.5em;
+}
+
+.employer {
+  margin: 2px 4px 1px 4px;
+  padding-left: 1em;
+  text-indent: -1em;
+  margin-bottom: 5px;
+}
+
+.employer-description {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.employer-description:before {
+  /*content: '-';*/
+}
+
+.note {
+  text-transform: none;
+  font-size: 9pt;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.title h3 {
+  font-size: 12pt;
+  font-style: italic;
+}
+
+.title .location-timeframe {
+  font-size: 90%;
+  position: relative;
+  top: -0.1em;
+}
+
+.highlights {
+  margin-bottom: 7px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
