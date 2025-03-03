@@ -198,3 +198,7 @@ ul {
 .job {
   margin-bottom: 20px;
 }
+
+.page-break-after {
+  page-break-after: always;
+}
