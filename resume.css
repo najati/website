@@ -91,7 +91,6 @@ ul {
   list-style: none;
   text-indent: -.85em;
   margin-bottom: 3px;
-  font-size: 10pt;
 }
 
 .section-content li:before {
@@ -125,7 +124,8 @@ ul {
 
 .contact-info ul li {
   list-style: none;
-  }
+  font-size: 10pt;
+}
 
 .contact-info ul li:before {
   content:'\2022';
