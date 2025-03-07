@@ -56,7 +56,6 @@ margin: auto;
 margin-top: .5in;
 margin-bottom: .5in;
 line-height: 1.4;
-background: red;
 }
 
 * { margin:0 ; padding:0; }
@@ -125,7 +124,7 @@ ul {
 
 .contact-info ul li {
   list-style: none;
-  font-size: 12pt;
+  font-size: 100pt;
 }
 
 .contact-info ul li:before {
