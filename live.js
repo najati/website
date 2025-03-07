@@ -34,7 +34,7 @@
   var Live = {
 
     // performs a cycle per interval
-    heartbeat: function () {      
+    heartbeat: function () { 
       if (document.body) {        
         // make sure all resources are loaded on first activation
         if (!loaded) Live.loadresources();
@@ -222,9 +222,11 @@
   };
 
   // start listening
-  if (document.location.protocol != "file:") {
-    if (!window.liveJsLoaded)
+  if (document.location.protocol != "file:" && !document.location.hostname.endsWith("najati.org")) {
+    if (!window.liveJsLoaded) {
+      console.log("Live.js started.")
       Live.heartbeat();
+    }
 
     window.liveJsLoaded = true;
   }
